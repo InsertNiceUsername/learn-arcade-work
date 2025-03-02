@@ -71,7 +71,7 @@ arcade.draw_line(500, 550, 450, 600, arcade.color.YELLOW, 3)
 arcade.draw_line(500, 550, 450, 500, arcade.color.YELLOW, 3)
 
 # Draw text at (150, 230) with a font size of 24 pts.
-arcade.draw_text("the lorax is watching you",
+arcade.draw_text("interesting text",
                  150, 230,
                  arcade.color.BLACK, 24)
 
