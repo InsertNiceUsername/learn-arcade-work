@@ -33,7 +33,7 @@ def main():
         ' legs. You can smell broccoli pudding coming from the kitchen. There are doors to the north and the east',
         'You are in the kitchen. There is a broccoli pudding (ew) and a sock with a hole. The floor is covered in '
         'ketchup. You really want chipotle. There are doors to the south and the east.',
-        'You are in an office. There are orange mushrooms growing out of a rocking horse (dont ask why). There are '
+        "You are in an office. There are orange mushrooms growing out of a rocking horse (don't ask why). There are "
         'legal documents on a desk about the legalization of catnip. There are doors to the west and the south.',
 
     ]
@@ -52,8 +52,8 @@ def main():
     done = False
     while not done:
         print(room_list[current_room].description)
-        answer = input('What do you want to do? Enter n for north, e for east, s for south, w for west, u for up, '
-                       'd for down, q to quit: ')
+        answer = input('move quickly chop chop. clickies n for north, e for east, s for south, w for west, and '
+                       'q to quit: ')
         print()
         low_answer = answer.lower()
         move = low_answer[0]
