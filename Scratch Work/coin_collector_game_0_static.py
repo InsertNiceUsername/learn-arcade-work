@@ -18,7 +18,7 @@ import arcade
 # --- Constants ---
 SPRITE_SCALING_PLAYER = 0.5
 SPRITE_SCALING_COIN = 0.25
-COIN_COUNT = 150
+COIN_COUNT = 600
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
@@ -43,7 +43,7 @@ class MyGame(arcade.Window):
         # Don't show the mouse cursor
         self.set_mouse_visible(False)
 
-        arcade.set_background_color(arcade.color.AMAZON)
+        arcade.set_background_color(arcade.color.WHITE)
 
     def setup(self):
         """ Set up the game and initialize the variables. """
@@ -119,3 +119,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
